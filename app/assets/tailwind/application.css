@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+@theme {
+  --*: initial;
+
+  /* =========================
+  Color
+  ========================= */
+
+  /* Text */
+  --color-text_headline: #000000;
+  --color-text_body: #333333;
+  --color-text_description-primary: #666666;
+  --color-text_description-secondary: #8b8b8b;
+  --color-text_link: #2677f0;
+  --color-text_accent-primary: #e5592e;
+  --color-text_accent-secondary: #e52e7a;
+  --color-text_accent-tertiary: #0aa37a;
+  --color-text_inverse: #ffffff;
+  --color-text_on-light-yellow: #4d4b24;
+  --color-text_on-light-orange: #4d2d00;
+  --color-text_on-navy: #ffffff;
+
+  /* Border */
+  --color-border_primary: #e0e0e0;
+  --color-border_secondary: #a5a5a5;
+  --color-border_tertiary: rgba(0, 0, 0, 0.04);
+
+  /* Background */
+  --color-background_primary: #ffffff;
+  --color-background_secondary: #f6f6f6;
+  --color-background_tertiary: #eeeeee;
+  --color-background_light-navy: #ecf0f3;
+  --color-background_navy: #122939;
+  --color-background_light-blue: #cde4ff;
+  --color-background_yellow-primary: #ffeb36;
+  --color-background_yellow-secondary: #ffff80;
+  --color-background_light-yellow: #fff9c0;
+  --color-background_extra-light-yellow: #fffde0;
+  --color-background_light-orange: #feeab2;
+  --color-background_light-red: #ffebeb;
+  --color-background_light-beige: #fcf8e3;
+
+  /* Button */
+  --color-button_primary: #ffeb36;
+  --color-button_primary-hover: #ffb50f;
+  --color-button_primary-text: #122939;
+
+  --color-button_submit: #e5592e;
+  --color-button_submit-hover: #cc471f;
+  --color-button_submit-text: #ffffff;
+
+  /* Status */
+  --color-status_neutral: #a5a5a5;
+  --color-status_disabled: #cacaca;
+  --color-status_active-primary: #122939;
+  --color-status_active-secondary: #ffb50f;
+  --color-status_toggle-active: #122939;
+
+  --color-status_progress-primary: #ffb50f;
+  --color-status_progress-secondary: #a8ceff;
+  --color-status_progress-tertiary: #f06095;
+
+  --color-status_alert: #db1f1f;
+  --color-status_on-alert: #ffffff;
+
+  --color-status_low: #4797ff;
+  --color-status_standard: #29cc9b;
+  --color-status_high: #fc7e00;
+  --color-status_higher: #ff6b6b;
+  --color-status_highest: #f53636;
+
+  --color-status_premium: #bdaa00;
+  --color-status_white: #ffffff;
+
+  /* =========================
+  Dimension
+  ========================= */
+
+  /* rounded */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* spacing */
+  --spacing-3xs: 2px;
+  --spacing-xxs: 4px;
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 40px;
+  --spacing-3xl: 48px;
+  --spacing-4xl: 64px;
+  --spacing-5xl: 80px;
+  --spacing-6xl: 96px;
+
+  /* breakpoint */
+  --breakpoint-pc: 768px;
+
+  /* =========================
+  Typography
+  ========================= */
+
+  /* font-family */
+  --font-japanese: "Noto Sans JP", sans-serif;
+  --font-english: "Roboto", sans-serif;
+
+  /* font-weight */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* font-size */
+  --text-xxs: 10px;
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-md: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-xxl: 24px;
+  --text-3xl: 32px;
+  --text-4xl: 36px;
+  --text-5xl: 48px;
+  --text-6xl: 56px;
+
+  /* line-height */
+  --leading-md: 160%;
+  --leading-sm: 140%;
+  --leading-xs: 120%;
+}
