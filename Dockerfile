@@ -5,4 +5,5 @@ WORKDIR /myapp
 ADD Gemfile /myapp/Gemfile
 ADD Gemfile.lock /myapp/Gemfile.lock
 RUN bundle install
+RUN ./bin/rails assets:precompile
 ADD . /myapp
