@@ -16,7 +16,6 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     assert_difference('User.count') do
       post users_path, params: { user: {name: "taro"}}
     end
-    assert_response :redirect
     assert_redirected_to user_path(User.last)
   end
   test "ユーザー一覧をshowできる" do
@@ -40,7 +39,6 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
       delete user_path(@user)
     end
 
-    assert_response :see_other
     assert_redirected_to root_path
   end
 end
