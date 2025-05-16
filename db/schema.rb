@@ -10,11 +10,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2025_05_02_050236) do
+ActiveRecord::Schema[7.0].define(version: 2025_05_16_024738) do
   create_table "users", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "ruby"
+    t.string "sex"
+    t.string "tel"
+    t.string "mobile"
+    t.string "mail"
+    t.string "zip"
+    t.string "address1"
+    t.string "address2"
+    t.string "address3"
+    t.string "address4"
+    t.date "birthday"
+    t.string "address5"
   end
 
 end
