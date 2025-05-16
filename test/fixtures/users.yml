@@ -2,6 +2,7 @@
 
 sato:
   name: MyString
+  ruby: "さとう"
   sex: "男"
   tel: "03-1234-5678"
   mobile: "080-9876-5432"
@@ -17,7 +18,7 @@ sato:
 tanaka:
   name: MyString
   ruby: "スズキ"
-  sex: "女"
+  sex: "female"
   tel: "03-2345-6789"
   mobile: "090-2345-6789"
   mail: "suzuki@example.com"
@@ -27,4 +28,4 @@ tanaka:
   address3: "Jingumae"
   address4: "2-2-2"
   address5: "Suzuki Building"
-  birthday: 1985-02-15
+  birthday: 1985/02/15
