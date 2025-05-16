@@ -1,7 +1,7 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
+sato:
+  name: "佐藤一郎"
 
-two:
-  name: MyString
+tanaka:
+  name: "田中二郎"
